@@ -21,7 +21,7 @@ const App = () => {
     
      <SafeAreaView> 
 
-     
+       
      {loader?<ActivityIndicator style={{marginTop:'40%'}} animating={true} color="#0000ff" size='small'/>:
       <View>
        <View style={{marginLeft:10,marginRight:10,marginTop:10,height:20}}>
@@ -45,17 +45,25 @@ const App = () => {
        <TouchableOpacity onPress={() => {
          setResult("")
          setloader(true)
-
-           if(parseInt(text, 10) <= 14 && parseInt(text, 10) >= 1){
-             NativeModules.Calculation.getCalculation(text,(value) => {
+         
+         if(parseInt(text, 10) == 0)
+         {
+          setloader(false)
+           alert('Please Enter valid number')
+           
+         }
+         else
+         {
+          NativeModules.Calculation.getCalculation(text,(value) => {
             console.log("count is " + value)
             setResult(value)
             setloader(false)
-              })    
-           }else{
-            setloader(false)
-             alert('Please enter number between 1 to 14')
-           }
+              }) 
+          
+           
+         }
+                
+          
         
      
     }}>
@@ -66,10 +74,13 @@ const App = () => {
     <Text>Submit</Text>
     </View>
     </TouchableOpacity>
+
+    <ScrollView> 
      <View style={{marginTop:10,marginLeft:10,marginRight:10,marginBottom:0}}>
       <Text>{result}</Text>
 
       </View>
+      </ScrollView> 
       </View>
      }
     

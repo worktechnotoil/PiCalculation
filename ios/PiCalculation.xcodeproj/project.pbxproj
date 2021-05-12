@@ -10,6 +10,7 @@
 		00E356F31AD99517003FC87E /* PiCalculationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* PiCalculationTests.m */; };
 		04323C122649AAAB0063C913 /* Calculation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04323C112649AAAB0063C913 /* Calculation.m */; };
 		04323C162649AAE80063C913 /* Calculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04323C152649AAE80063C913 /* Calculation.swift */; };
+		04B2E12A264BA51E00D63161 /* picalculation.js in Resources */ = {isa = PBXBuildFile; fileRef = 04B2E129264BA51E00D63161 /* picalculation.js */; };
 		04C85C1956A8349D3FC15DF4 /* libPods-PiCalculation-PiCalculationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA030766B7792CED39EC017F /* libPods-PiCalculation-PiCalculationTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -35,6 +36,7 @@
 		04323C112649AAAB0063C913 /* Calculation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calculation.m; sourceTree = "<group>"; };
 		04323C152649AAE80063C913 /* Calculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculation.swift; sourceTree = "<group>"; };
 		043FD34926495F5C00EA36F0 /* PiCalculation-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PiCalculation-Bridging-Header.h"; sourceTree = "<group>"; };
+		04B2E129264BA51E00D63161 /* picalculation.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = picalculation.js; sourceTree = "<group>"; };
 		06E540A9F87F145BEBBC8D98 /* Pods-PiCalculation-PiCalculationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiCalculation-PiCalculationTests.debug.xcconfig"; path = "Target Support Files/Pods-PiCalculation-PiCalculationTests/Pods-PiCalculation-PiCalculationTests.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* PiCalculation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiCalculation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = PiCalculation/AppDelegate.h; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 		13B07FAE1A68108700A75B9A /* PiCalculation */ = {
 			isa = PBXGroup;
 			children = (
+				04B2E129264BA51E00D63161 /* picalculation.js */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -250,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B2E12A264BA51E00D63161 /* picalculation.js in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
